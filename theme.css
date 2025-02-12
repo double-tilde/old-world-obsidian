@@ -1,0 +1,96 @@
+:root {
+	/* hex colors variables */
+	--color-red: #ea83a5;
+	--color-orange: #f5a191;
+	--color-yellow: #e6b99d;
+	--color-green: #90b99f;
+	--color-cyan: #85b5ba;
+	--color-blue: #92a2d5;
+	--color-purple: #aca1cf;
+	--color-pink: #e29eca;
+
+	/* rgb colors variables */
+	--color-red-rgb: 234 131 165;
+	--color-orange-rgb: 245 161 145;
+	--color-yellow-rgb: 230 185 157;
+	--color-green-rgb: 144 185 159;
+	--color-cyan-rgb: 133 181 186;
+	--color-blue-rgb: 146 162 213;
+	--color-purple-rgb: 172 161 207;
+	--color-pink-rgb: 226 158 202;
+
+	/* surface colors variables */
+	--background-primary: #27272a;
+	--background-primary-alt: #18181a;
+	--background-secondary: #131314;
+	--background-secondary-alt: #161617;
+	--background-modifier-hover: #2a2a2c;
+	--background-modifier-active-hover: #2a2a2c;
+	/* --background-modifier-border */
+	/* --background-modifier-border-hover */
+	/* --background-modifier-border-focus */
+	/* --background-modifier-error-rgb */
+	/* --background-modifier-error */
+	/* --background-modifier-error-hover */
+	/* --background-modifier-success-rgb */
+	/* --background-modifier-success */
+	/* --background-modifier-message */
+	/* --background-modifier-form-field */
+
+	/* text colors variables */
+	--text-normal: #c9c7cd;
+	--text-muted: #9f9ca6;
+	/* --text-faint */
+	/* --text-on-accent */
+	/* --text-on-accent-inverted */
+	/* --text-success */
+	/* --text-warning */
+	/* --text-error */
+	/* --text-accent */
+	/* --text-accent-hover */
+
+	/* heading colors variables */
+	--h1-color: var(--color-yellow);
+	--h2-color: var(--color-blue);
+	--h3-color: var(--color-pink);
+	--h4-color: var(--color-orange);
+	--h5-color: var(--color-green);
+	--h6-color: var(--color-red);
+
+	/* radius */
+	--radius-s: 4px;
+	--radius-m: 8px;
+	--radius-l: 12px;
+	--input-radius: 4px;
+	--tab-radius-active: 4px;
+	--checkbox-radius: 4px;
+	--toggle-radius: 16px;
+	--toggle-thumb-radius: 16px;
+	--slider-thumb-radius: 16px;
+}
+
+.workspace-tab-header.is-active::before,
+.workspace-tab-header.is-active::after {
+	display: none;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+body {
+	/* accent hsl variables */
+	--accent-h: 10;
+	--accent-s: 83%;
+	--accent-l: 77%;
+}
+
+.theme-light,
+.theme-dark {
+	/* accent color */
+	--color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+	--interactive-accent: var(--color-accent);
+}
