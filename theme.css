@@ -21,12 +21,12 @@ body,
 	--color-pink-rgb: 226, 158, 202;
 
 	/* primary */
-	--primary: #27272a;
-	--primary-alt: #18181a;
+	--primary: #161617;
+	--primary-alt: #27272a;
 	--secondary: #131314;
-	--secondary-alt: #161617;
-	--modifier-hover: #2a2a2c;
-	--modifier-active-hover: #2a2a2c;
+	--secondary-alt: #27272a;
+	--modifier-hover: #313134;
+	--modifier-active-hover: #313134;
 	/* --background-modifier-border */
 	/* --background-modifier-border-hover */
 	/* --background-modifier-border-focus */
@@ -39,12 +39,12 @@ body,
 	/* --background-modifier-form-field */
 
 	/* primary rgb */
-	--primary-rgb: 39, 39, 42;
-	--primary-alt-rgb: 24, 24, 26;
+	--primary-rgb: 22, 22, 23;
+	--primary-alt-rgb: 39, 39, 42;
 	--secondary-rgb: 19, 19, 20;
-	--secondary-alt-rgb: 2, 22, 23;
-	--modifier-hover-rgb: 42, 42, 44;
-	--modifier-active-hover-rgb: 42, 42, 44;
+	--secondary-alt-rgb: 39, 39, 42;
+	--modifier-hover-rgb: 39, 39, 42;
+	--modifier-active-hover-rgb: 39, 39, 42;
 
 	/* surface colors variables */
 	--background-primary: var(--primary);
@@ -92,7 +92,7 @@ body,
 	--radius-l: 12px;
 	--input-radius: 4px;
 	--tab-radius-active: 4px;
-	--checkbox-radius: 4px;
+	--checkbox-radius: 2px;
 	--toggle-radius: 16px;
 	--toggle-thumb-radius: 16px;
 	--slider-thumb-radius: 16px;
@@ -115,13 +115,13 @@ body,
 
 	/* table colors	 */
 	--table-background: rgba(var(--primary-alt-rgb), 0.3);
-	--table-header-background: var(--primary-alt);
+	--table-header-background: rgba(var(--primary-alt-rgb), 0.8);
 
 	/* extra */
 	--text-highlight-bg: rgba(var(--color-yellow-rgb), 0.5);
 	--caret-color: var(--color-yellow);
 	--hr-thickness: 3px;
-	--code-background: rgba(var(--primary-alt-rgb), 0.7);
+	--code-background: rgba(var(--primary-alt-rgb), 0.3);
 }
 
 /* :horizontal rules */
