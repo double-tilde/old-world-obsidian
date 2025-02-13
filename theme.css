@@ -69,9 +69,9 @@ body,
 	--bold-color: var(--color-pink);
 
 	/* nav text */
-	--nav-item-color-hover: var(--color-yellow);
-	--nav-item-color-active: var(--color-yellow);
-	--nav-item-color-selected: var(--color-yellow);
+	--nav-item-color-hover: var(--color-orange);
+	--nav-item-color-active: var(--color-orange);
+	--nav-item-color-selected: var(--color-orange);
 
 	/* nav icon color */
 	--icon-color-hover: var(--color-blue);
@@ -119,7 +119,7 @@ body,
 
 	/* extra */
 	--text-highlight-bg: rgba(var(--color-yellow-rgb), 0.5);
-	--caret-color: var(--color-orange);
+	--caret-color: var(--color-yellow);
 	--hr-thickness: 3px;
 	--code-background: rgba(var(--primary-alt-rgb), 0.7);
 }
