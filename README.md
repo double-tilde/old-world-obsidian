@@ -3,7 +3,7 @@
 <div align="center">
 v1.0 | Created by Double Tilde<br>
 Based on the [Old World Theme](https://github.com/dgox16/oldworld.nvim) by dgox16<br>
-Designed to be a relaxed color palette that is easy on the eyes.
+Designed to be a relaxed color palette that is easy on the eyes.<br>
 </div>
 
 <img src="./images/example.png"><br />
