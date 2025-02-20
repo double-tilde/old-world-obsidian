@@ -113,6 +113,20 @@ body,
 	--link-accent: hsl(var(--link-accent-h), var(--link-accent-s), var(--link-accent-l));
 	--link-color: var(--link-accent);
 
+	/* code */
+	--code-background: rgba(var(--primary-alt-rgb), 0.3);
+	--code-normal: var(--text-normal);
+	--code-comment: var(--text-faint);
+	--code-function: var(--color-yellow);
+	--code-important: var(--color-orange);
+	--code-keyword: var(--color-pink);
+	--code-operator: var(--color-orange);
+	--code-property: var(--color-blue);
+	--code-punctuation: var(--text-muted);
+	--code-string: var(--color-green);
+	--code-tag: var(--color-red);
+	--code-value: var(--color-purple);
+
 	/* table colors	 */
 	--table-background: rgba(var(--primary-alt-rgb), 0.3);
 	--table-header-background: rgba(var(--primary-alt-rgb), 0.8);
@@ -121,7 +135,6 @@ body,
 	--text-highlight-bg: rgba(var(--color-yellow-rgb), 0.5);
 	--caret-color: var(--color-yellow);
 	--hr-thickness: 3px;
-	--code-background: rgba(var(--primary-alt-rgb), 0.3);
 }
 
 /* :horizontal rules */
